@@ -15,4 +15,4 @@ import type { PinnedVendorCliVersion } from "@claudexor/util";
  * supersedes the historical file-only lock in PLAN Л-15/R-2' under
  * CONCEPT-CHANGE(INV-067, INV-135).
  */
-export const AGY_VENDOR_CLI_VERSION: PinnedVendorCliVersion = "1.1.13";
+export const AGY_VENDOR_CLI_VERSION: PinnedVendorCliVersion = "1.2.12";

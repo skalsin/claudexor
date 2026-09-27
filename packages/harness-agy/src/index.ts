@@ -83,6 +83,9 @@ async function detectVersion(): Promise<string | null> {
  * every explicit model (PLAN §2.6).
  */
 const AGY_KNOWN_MODELS = [
+  "gemini-3.8-flash-high",
+  "gemini-3.8-flash-medium",
+  "gemini-3.8-flash-low",
   "gemini-3.7-flash-high",
   "gemini-3.7-flash-medium",
   "gemini-3.7-flash-low",
