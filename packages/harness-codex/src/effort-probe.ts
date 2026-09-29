@@ -55,6 +55,10 @@ export interface CodexEffortCatalog {
  */
 export const CODEX_EFFORT_SNAPSHOT: CodexEffortCatalog = {
   models: {
+    "gpt-6.1-sol": {
+      levels: ["low", "medium", "high", "xhigh", "max", "ultra"],
+      default: "low",
+    },
     "gpt-6-astra": {
       levels: ["low", "medium", "high", "xhigh", "max", "ultra"],
       default: "medium",

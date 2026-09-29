@@ -440,6 +440,7 @@ export function createCodexAdapter(deps: Partial<CodexRuntimeDeps> = {}): Harnes
             : CODEX_EFFORT_SNAPSHOT_VERIFIED_AGAINST,
           // Manifest truth for routes the live probe does not answer; no hidden models.
           known_models: [
+            "gpt-6.1-sol",
             "gpt-6-astra",
             "gpt-6-sol",
             "gpt-6-luna",
